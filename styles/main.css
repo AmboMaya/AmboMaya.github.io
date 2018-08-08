@@ -1,0 +1,40 @@
+*{
+    font-family: Cambria;
+} 
+
+.opening{ 
+    text-align: center;
+    font-family: cambria;
+    font-size: 50px;
+    padding: 30px;
+    margin: 0;
+}
+
+#blog{
+    text-align: center;
+    text-emphasis: 10px;
+    margin: 0;
+    
+}
+#clickme{
+    background-color:#4e1f53ad;
+    color: #000;
+    border-color: white;
+    opacity: 50%;
+}
+     
+.blogbody{
+    display: block;
+    margin: 0 60px 0 60px;
+}
+
+.navbar{
+    background-color:rgb(53, 46, 47);
+    margin: 0 50px 0 50px;
+    color: whitesmoke;
+}
+
+footer{
+    text-align: right;
+    margin: 0 100px 0 0;
+}
