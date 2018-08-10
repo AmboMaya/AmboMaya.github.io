@@ -29,12 +29,28 @@
 }
 
 .navbar{
-    background-color:rgb(53, 46, 47);
+    background-color:#222629ec;
     margin: 0 50px 0 50px;
     color: whitesmoke;
+    border-radius: 5px;
 }
 
 footer{
     text-align: right;
     margin: 0 100px 0 0;
 }
+
+.arrow{
+    background-color: #02172bd9;
+    border-radius: 5em;
+    text-align: center;
+    margin-left: 50%;
+    border: 2px solid black;
+}
+i.fa{
+    font-size: 30px;
+    padding-top: 5px;
+    text-align: center;
+   
+}
+
