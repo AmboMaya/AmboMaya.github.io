@@ -1,6 +1,25 @@
 *{
     font-family: Cambria;
+    margin: 5px;
 } 
+
+.container.boxify{
+    border: 5px solid aqua;
+    border-radius: 5px;
+}
+
+header.boxify{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.menu{
+    display:none;
+}
+
+.menu.show{
+    display: block;
+}
 
 .opening{ 
     text-align: center;
@@ -17,10 +36,8 @@
     
 }
 #clickme{
-    background-color:#4e1f53ad;
+    background-color:#26c1f9;
     color: #000;
-    border-color: white;
-    opacity: 50%;
 }
      
 .blogbody{
@@ -50,26 +67,75 @@ footer{
 i.fa{
     font-size: 30px;
     padding-top: 5px;
-    text-align: center;
+    text-align: center;  
+}
+
+a.btn:hover{
+    border: 5px;
+    border-style:outset;
    
 }
 .section-header{
-    margin: 30px 0 30px 0;
+    margin: 30px 0 10px 0;
     color: white; 
-    font-weight: bold;
+    font-weight: bold;  
+    width:40%;
+}
+
+.section-header.boxify{
+    border: 2px solid pink;
+    border-radius: 5px;
 }
 
 p.explanation{
     margin-top:10px;
     color: #d0d1d3;
-    padding: 20px;
+    padding: 10px;
+    
+}
+
+p.explanation.boxify{
+    border: 2px solid yellow;
+    border-radius: 5px;
 }
 
 section{
     background-color: #3a3939;
     color: white;
+    padding: 20px;  
+}
+
+section.boxify{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+article{
+    background-color: #4d4d4e;
+    color: white;
     padding: 20px;
-    opacity: 1;
+    margin-top: 10px;
+    padding-left: 20px;
+    
+}
+
+article.boxify{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+aside{
+    display: flex;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 8px;
+    background-color: 26c1f9;
+}
+
+figure{
+    display: flex;
+    margin-left: 30%;
+    
 }
 
 
