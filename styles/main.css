@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    padding-top: 2rem;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+} 
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+
+.bio{
+    margin-top: 50px;
+}
+
+.about-me{
+    color: #222;
+    text-align: center;
+
+}
+
+@media (max-width: 550px) {
+    margin: 0;
+}
+.prof-img .u-max-full-width{
+    width: 20%;
+    height: 20%;
+}
+.prof-img img{
+    display: inline;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.link-to-blog{
+    margin-top: 30px;
+}
