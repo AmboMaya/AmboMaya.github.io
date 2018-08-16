@@ -8,7 +8,8 @@ body, html {
 } 
 
 .u-max-full-width {
-    max-width: 100%;
+    max-width: 40%;
+    max-height: 40%;
     box-sizing: border-box; 
 }
 
@@ -19,16 +20,17 @@ body, html {
 .about-me{
     color: #222;
     text-align: center;
-
 }
 
 @media (max-width: 550px) {
     margin: 0;
 }
+
 .prof-img .u-max-full-width{
     width: 20%;
     height: 20%;
 }
+
 .prof-img img{
     display: inline;
     margin: 0 auto;
@@ -37,6 +39,27 @@ body, html {
     overflow: hidden;
 }
 
+.wireframe-img img{
+    display: inline;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
 .link-to-blog{
     margin-top: 30px;
+}
+
+.question h5{
+    padding-top:0;
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem;
+}
+
+.list{
+    padding-left: 2em;
+    list-style-position: inside;
+    list-style-type: disc;
+    text-indent: -0.5em;
 }
