@@ -57,6 +57,11 @@ body, html {
     letter-spacing: -.05rem;
 }
 
+.question h6{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
 .list{
     padding-left: 2em;
     list-style-position: inside;
