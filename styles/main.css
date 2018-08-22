@@ -4,9 +4,16 @@ body, html {
     background: #A1FFCE;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 } 
 
+a{
+    text-decoration: none;  
+    color: black;
+}
+
+tbody.link-to-blog{
+    color: black;
+}
 .u-max-full-width {
     max-width: 40%;
     max-height: 40%;
@@ -23,6 +30,10 @@ body, html {
 }
 
 @media (max-width: 550px) {
+    margin: 0;
+}
+
+@media (min-width: 400px) {
     margin: 0;
 }
 
@@ -46,10 +57,15 @@ body, html {
     overflow: hidden;
 }
 
-.link-to-blog{
-    margin-top: 30px;
+.link-to-blog a:hover{
+    color: rgb(95, 95, 185);
+    font-weight: bold;
+    text-decoration: none;  
 }
 
+.blog-list{
+    margin-top: 50px;
+}
 .question h5{
     padding-top:0;
     font-size: 2rem;
@@ -75,3 +91,4 @@ i.back-arrow, i{
     font-weight: bolder;
     float: right;
 }
+
