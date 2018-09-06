@@ -100,3 +100,35 @@ i.back-arrow, i{
     float: right;
 }
 
+.container.boxify{
+    border: 5px solid aqua;
+    border-radius: 5px;
+}
+
+.section-header.boxify{
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+p.explanation.boxify{
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
+section.boxify{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+article.boxify{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.btn.boxify{
+    margin-top: 20px;
+}
