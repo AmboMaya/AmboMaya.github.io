@@ -132,3 +132,10 @@ article.boxify{
 .btn.boxify{
     margin-top: 20px;
 }
+
+.game{
+    font-weight: bold;
+    color: blue;
+    border-color: black;
+    border: 10px;
+}
